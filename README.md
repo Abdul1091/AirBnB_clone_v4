@@ -27,6 +27,14 @@ This project is interpreted/tested on Ubuntu 14.04 LTS using python3 (version 3.
 * Run hbnb(interactively): `./console` and enter command
 * Run hbnb(non-interactively): `echo "<command>" | ./console.py`
 
+## Installation for v4
+* Clone this repository: `git clone "https://github.com/Abdul1091/AirBnB_clone_v4.git"`
+* Access the AirBnB directory: `cd AirBnB_clone_v4`
+* Install required dependencies: `pip3 install -r requirements.txt` (if applicable)
+* Install Flasgger if not already installed: `sudo pip3 install flasgger`
+* Run `hbnb` interactively: `./console` and enter commands.
+* Run `hbnb` non-interactively: `echo "<command>" | ./console.py`
+
 ## File Descriptions
 [console.py](console.py) - the console contains the entry point of the command interpreter. 
 List of commands this console current supports:
@@ -154,11 +162,16 @@ EOF  all  create  destroy  help  quit  show  update
 No known bugs at this time. 
 
 ## Authors
+Abdullahi Tukur - Added new functionalities and updated the codebase for version 4.
+		[Github](https://github.com/softbiochem) / [Twitter](https://twitter.com/softbiochem)
 Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)  
 Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter.com/JhoanZamora10)  
 David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
 
+
 Second part of Airbnb: Joann Vuong
+
+Fifth part of Airbnb: Abdullahi Tukur
 ## License
 Public Domain. No copy write protection. 
